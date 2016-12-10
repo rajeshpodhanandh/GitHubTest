@@ -9,6 +9,7 @@ public class GitHubClass {
 		System.getProperty("webdriver.gecko.driver","C:\\Rajesh BM\\EclipseWorkSpace\\WebDriverProject\\lib\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 		driver.get("http://yahoo.com");
+		System.out.println("open Yahoo webpage");
 	}
 
 }
