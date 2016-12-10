@@ -10,6 +10,11 @@ public class GitHubClass {
 		WebDriver driver = new FirefoxDriver();
 		driver.get("http://yahoo.com");
 		System.out.println("open Yahoo webpage");
+		int a=10;
+		int b=5;
+		if(a>b){
+			System.out.println("a is greater");
+		}
 	}
 
 }
